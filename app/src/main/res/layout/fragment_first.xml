@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".FirstFragment">
+
+
+
+
+
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/fab_margin"
+        android:foreground="@drawable/add"
+        app:backgroundTint="@color/white" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="656dp"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:paddingStart="35dp"
+            android:textSize="20dp"
+
+            android:text="Yaklaşan Notlar" />
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="302dp"
+            android:padding="15dp" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="35dp"
+            android:textSize="20dp"
+            android:text="Notlar" />
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="328dp"
+            android:layout_marginTop="10dp"
+            android:padding="15dp" />
+
+    </LinearLayout>
+    android:layout_height="wrap_content">
+
+</FrameLayout>
